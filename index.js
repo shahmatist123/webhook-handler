@@ -6,7 +6,6 @@ const bodyParser = require("body-parser")
 // Initialize express and define a port
 const app = express()
 const PORT = 7777
-shell.exec('../build-script.sh')
 // Tell express to use body-parser's JSON parsing
 app.use(bodyParser.json())
 // Start express on the defined port
@@ -17,3 +16,4 @@ app.post("/hook", (req, res) => {
   shell.exec('../build-script.sh')
   res.status(200).end() // Responding is important
 })
+shell.exec('../build-script.sh')

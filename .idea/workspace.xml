@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b76e711a-c3d7-407f-85b8-12fb98733718" name="Changes" comment="Change directory">
+    <list default="true" id="b76e711a-c3d7-407f-85b8-12fb98733718" name="Changes" comment="First trigger script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -51,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685930083016</updated>
       <workItem from="1685930084530" duration="4017000" />
-      <workItem from="1685938363685" duration="10000" />
+      <workItem from="1685938363685" duration="624000" />
+      <workItem from="1685953141433" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="add nodemon">
       <created>1685930854515</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685932506912</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First trigger script">
+      <created>1685938389643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685938389643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +107,7 @@
     <MESSAGE value="Gitignore" />
     <MESSAGE value="Add trigger bash script" />
     <MESSAGE value="Change directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change directory" />
+    <MESSAGE value="First trigger script" />
+    <option name="LAST_COMMIT_MESSAGE" value="First trigger script" />
   </component>
 </project>
