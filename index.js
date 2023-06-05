@@ -13,6 +13,6 @@ app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`))
 app.use(bodyParser.json())
 app.post("/hook", (req, res) => {
   console.log(req.body) // Call your action on the request here
-  shell.exec('./build-script')
+  shell.exec('../build-script')
   res.status(200).end() // Responding is important
 })
