@@ -9,11 +9,14 @@ const PORT = 7777
 // Tell express to use body-parser's JSON parsing
 app.use(bodyParser.json())
 // Start express on the defined port
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`))
+app.listen(PORT, () =>
+{
+  shell.exec('../build-script.sh')
+  console.log(`🚀 Server running on port ${PORT}`)
+})
 app.use(bodyParser.json())
 app.post("/hook", (req, res) => {
   console.log(req.body) // Call your action on the request here
   shell.exec('../build-script.sh')
   res.status(200).end() // Responding is important
 })
-shell.exec('../build-script.sh')
