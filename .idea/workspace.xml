@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b76e711a-c3d7-407f-85b8-12fb98733718" name="Changes" comment="First trigger script">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="b76e711a-c3d7-407f-85b8-12fb98733718" name="Changes" comment="First trigger script" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +49,7 @@
       <updated>1685930083016</updated>
       <workItem from="1685930084530" duration="4017000" />
       <workItem from="1685938363685" duration="624000" />
-      <workItem from="1685953141433" duration="738000" />
+      <workItem from="1685953141433" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="add nodemon">
       <created>1685930854515</created>
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685955587416</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First trigger script">
+      <created>1685955696683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685955696683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

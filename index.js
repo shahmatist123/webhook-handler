@@ -11,7 +11,6 @@ app.use(bodyParser.json())
 // Start express on the defined port
 app.listen(PORT, () =>
 {
-  shell.exec('../build-script.sh')
   console.log(`🚀 Server running on port ${PORT}`)
 })
 app.use(bodyParser.json())
